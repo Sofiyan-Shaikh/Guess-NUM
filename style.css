@@ -1,0 +1,144 @@
+/* *{margin: 0;
+  padding: 0;
+}
+body {
+  border: #007bff;
+  font-family: Arial, sans-serif;
+  background-color: #f0ebeb;
+  height: 100vh;
+}
+.box{
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  margin-left: 100px;
+
+}
+.game-container {
+  margin: 25px auto;
+  width: 150px;
+  padding: 20px;
+  background-color: #aea1a1;
+  box-shadow: 0 4px 6px rgba(197, 12, 12, 0.1);
+  border-radius: 8px;
+  transform: rotate(15deg);
+  
+}
+  
+ 
+p {
+  margin: 10px 0;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d3c4c4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/
+
+  */
+
+
+
+  /* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e1e2f; /* Dark background for game style */
+  color: #fff; /* White text for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#heading {
+  color: #ff4500; /* Vibrant color for heading */
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%); /* Center the heading horizontally */
+  width: auto;
+}
+
+
+.box {
+  width: 100%; /* Increased width */
+  max-width: 600px; /* Increased max-width */
+  background-color: #29293d; /* Slightly lighter box color */
+  border-radius: 10px;
+  padding: 30px; /* Increased padding for better spacing */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  
+   background-color: #29293d; 
+    border: 2px solid #ff4500;
+    border-radius: 20px; /* Smooth rounded corners */
+    padding: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0.5, 1.5);
+    text-align: center;
+}
+
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #444456;
+  color: #fff;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ff4500; /* Button matches heading color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e63900;
+}
+
+#message {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+span {
+  font-weight: bold;
+  color: #ff4500;
+}
